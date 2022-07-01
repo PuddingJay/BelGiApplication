@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.belgiclassroom.MainActivity">
+    <item
+        android:id="@+id/action_as_teacher"
+        android:orderInCategory="100"
+        android:title="Sebagai Guru"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_as_student"
+        android:orderInCategory="100"
+        android:title="Sebagai Murid"
+        app:showAsAction="never" />
+</menu>
